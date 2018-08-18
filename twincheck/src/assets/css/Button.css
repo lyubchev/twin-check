@@ -1,4 +1,6 @@
 .scan-btn {
+    margin-top: 5vh;
+    font-size: 5vh !important;
     background-color: #6fb772 !important;
 }
 
@@ -6,4 +8,3 @@
     box-shadow: 0 0 0px #000 !important;
     border: 0px solid #000 !important;
 }
-

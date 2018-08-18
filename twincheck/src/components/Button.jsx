@@ -6,7 +6,7 @@ export default class Button extends Component {
         return (
             <div>
                 <button className="btn btn-success scan-btn">
-                <i className="fas fa-search"></i> scan face
+                <i className="fas fa-search"></i> Scan face!
                 </button>
             </div>
         );
