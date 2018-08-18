@@ -7,8 +7,7 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-multimedia-capture": "^1.2.0",
-    "react-scripts": "1.1.4",
-    "react-webcam": "^1.0.1"
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
