@@ -1,9 +1,14 @@
-header {
+h1 {
     text-align: center;
+    width: 100% !important;
+    color: rgb(66,66,66) !important;
+    font-size: 3rem !important;
+    background-color: rgba(235, 235, 235, .3);
 }
 
 .grid {
     display: grid;
+    margin-top: 10vh;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
     text-align: center;
@@ -13,12 +18,9 @@ header {
     .grid {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        margin-right: auto;
+        margin-left: auto;
         grid-gap: 50px;
         text-align: center;
     }
-}
-
-.grid div {
-    margin-left: auto;
-    margin-right: auto;
 }
