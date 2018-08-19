@@ -1,19 +1,22 @@
 import React, { Component } from 'react';
-import Button from './components/Button.jsx'
-import FaceFrame from './components/FaceFrame.jsx';
+import FacePanel from './components/FacePanel.jsx';
 import './assets/css/App.css'
 
 class App extends Component {
   render() {
     return (
-      <div className="grid">
-        <div>
-          <FaceFrame />
-          <Button />
-        </div>
-        <div>
-          <FaceFrame />
-          <Button />
+      <div className="wrapper">
+        <header>
+          c=3
+          <br />
+        </header>
+        <div className="grid">
+          <div>
+            <FacePanel />
+          </div>
+          <div>
+            <FacePanel />
+          </div>
         </div>
       </div>
     );

@@ -1,5 +1,9 @@
-.faceFrame {
-    margin-top: 5vh;
-    width: 50%;
-    height: 50%;
+.face-frame {
+    width: 20vw;
+}
+
+@media only screen and (max-width: 900px) {
+    .face-frame {
+        width: 20vh;
+    }
 }
