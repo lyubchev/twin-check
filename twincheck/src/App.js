@@ -8,8 +8,9 @@ class App extends Component {
     return (
       <div className="container">
         <h1>
-          <i className="far fa-check-circle"></i> twincheck!
+        Twin<i className="far fa-check-square"></i>
         </h1>
+        <p className="text-center intro-text"> Check similarity of two faces by uploading two images. </p>
         <div className="grid">
           <div>
             <FacePanel />

@@ -8,6 +8,7 @@ export default class FacePanel extends Component {
         return (
             <div className="face-panel">
                 <FaceFrame />
+                <p>Drag-drop image here</p>
                 <Button />
             </div>
         );
