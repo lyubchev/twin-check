@@ -5,7 +5,7 @@ import FaceImage from '../assets/images/Face.svg';
 class FaceFrame extends Component {
     render() {
         return (
-            <img className="face-frame" src={FaceImage} alt="" />
+            <img className="face-frame" src={this.props.image !== null ? URL.createObjectURL(this.props.image) : FaceImage} alt="" />
         );
     }
 }
