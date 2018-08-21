@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import FacePanel from './components/FacePanel.jsx';
+import Button from './components/Button.jsx';
 import './assets/fonts/style.css';
 import './assets/css/App.css'
 
@@ -8,7 +9,7 @@ class App extends Component {
     return (
       <div className="container">
         <h1>
-        Twin<i className="far fa-check-square"></i>
+        Twin <i className="far fa-check-square"></i>
         </h1>
         <p className="text-center intro-text"> Check similarity of two faces by uploading two images. </p>
         <div className="grid">
@@ -19,8 +20,10 @@ class App extends Component {
             <FacePanel />
           </div>
         </div>
+        <Button />
       </div>
     );
   }
 }
+
 export default App;

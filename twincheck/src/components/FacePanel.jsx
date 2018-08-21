@@ -3,14 +3,15 @@ import Button from './Button.jsx';
 import FaceFrame from './FaceFrame.jsx';
 import '../assets/css/FacePanel.css';
 
-export default class FacePanel extends Component {
+class FacePanel extends Component {
     render() {
         return (
             <div className="face-panel">
                 <FaceFrame />
                 <p>Drag-drop image here</p>
-                <Button />
             </div>
         );
     }
 }
+
+export default FacePanel;

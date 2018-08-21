@@ -12,10 +12,10 @@
 .face-frame {
     width: 20vw;
     animation-name: shake;
-    animation-duration: 1500ms;
+    animation-duration: 800ms;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
 }
 
 .face-frame:hover {
