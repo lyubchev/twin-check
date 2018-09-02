@@ -3,6 +3,14 @@
     to { transform: rotate(360deg); }
 }
 
+.grid {
+    display: grid;
+    margin-top: 10vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
     .grid {
         display: grid;
@@ -40,10 +48,3 @@ h1 {
     font-size: 2rem !important;
 }
 
-.grid {
-    display: grid;
-    margin-top: 10vh;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 50px;
-    text-align: center;
-}
