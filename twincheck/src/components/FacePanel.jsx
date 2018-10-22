@@ -8,7 +8,6 @@ class FacePanel extends Component {
         this.state = {
             image: null
         }
-
         this.handleClick = this.handleClick.bind(this);
         this.handleInputChange = this.handleInputChange.bind(this);
         this.handleDrop = this.handleDrop.bind(this);
