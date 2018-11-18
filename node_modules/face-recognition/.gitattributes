@@ -1,0 +1,2 @@
+*.d.ts linguist-vendored=false
+/examples/* linguist-documentation=false
