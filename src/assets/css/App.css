@@ -33,7 +33,7 @@ h1 {
     margin: auto;
     padding: 0 !important;
     margin-top: 5vh !important;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 5px 15px -5px black;
     border-radius: 10px;
 }
 

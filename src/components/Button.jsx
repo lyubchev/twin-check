@@ -6,7 +6,7 @@ class Button extends Component {
         return (
             <div>
                 <button className="btn btn-success scan-btn">
-                <i className="fas fa-search"></i> Analyze faces!
+                <i className="fas fa-search"></i> {this.props.children}
                 </button>
             </div>
         );
