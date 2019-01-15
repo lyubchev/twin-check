@@ -7,9 +7,9 @@
 ```shell
 cd twincheck/twincheck
 ```
-- Install the dependencies using npm
+- Install the dependencies using yarn or npm
 ```shell
-npm install
+yarn
 ```
 - Start the project
 ```shell
