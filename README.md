@@ -13,5 +13,5 @@ yarn
 ```
 - Start the project
 ```shell
-npm start
+yarn start
 ```
