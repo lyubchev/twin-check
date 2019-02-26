@@ -1,0 +1,21 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "rules": {
+    "no-console": false,
+    "member-access": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "quotemark": [true, "single", "jsx-double"],
+    "trailing-comma": false,
+    "max-classes-per-file": false,
+    "array-type": false,
+    "no-unused-variable": false,
+    "interface-name": false,
+    "arrow-parens": false,
+    "no-submodule-imports": false,
+    "interface-over-type-literal": false,
+    "semicolon": [true, "always", "strict-bound-class-methods"]
+  },
+  "rulesDirectory": []
+}

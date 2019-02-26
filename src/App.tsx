@@ -1,22 +1,21 @@
 import React, { Component } from 'react';
-import FacePanel from './components/FacePanel.jsx';
-import Button from './components/Button.jsx';
+import FacePanel from './components/FacePanel';
+import Button from './components/Button';
 import './assets/fonts/style.css';
 import './assets/css/App.css';
 
 class App extends Component {
-
-  constructor(props) {
+  constructor(props: any) {
     super(props);
 
     this.handleUpdate = this.handleUpdate.bind(this);
   }
-  
+
   state = {
     images: []
   };
 
-  handleUpdate(img) {
+  const handleUpdate = (img) {
     this.setState(prevState => ({
       images: [...prevState.images, img]
     }));

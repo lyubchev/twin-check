@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FaceFrame from './FaceFrame.jsx';
+import FaceFrame from './FaceFrame';
 import '../assets/css/FacePanel.css';
 
 class FacePanel extends Component {
